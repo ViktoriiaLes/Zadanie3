@@ -3,10 +3,10 @@ public class Blouse {
     String madeOf;
     int size;
 
-    public Blouse() {
-        System.out.println("Call of default constructor Blouse");
-        color = "white";
-        madeOf = "cotton";
-        size = 40;
+    public Blouse(String c, String mOf, int s) {
+        color = c;
+        madeOf = mOf;
+        size = s;
+
     }
 }
