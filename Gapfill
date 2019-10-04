@@ -2,14 +2,14 @@ public class Gapfill {
     public static void main(String[] args) {
         System.out.println("Klasa to szablon pozwalający na definiowanie cech i funkcionalności " +
                 "(częściowo lub całkowicie) obiekta\n" +
-                "Obiekt to co  tworzymy  za pomocą klasów uzywając kluczowego słowa new, Obiekt  ma stan i  zachowanie. "
+                "Obiekt to co  tworzymy  za pomocą klasów uzywając kluczowego słowa new (instancja kalsy), Obiekt  ma stan i  zachowanie. "
                 + " Stan przechowywany w polach, podczas gdy metody (funkcje) wyświetlaja zachowanie obiektu " +
                 "Zmienna to jest  kontener, który przechowuje wartości podczas wykonywania programu Java. \n " +
                 "Zmienna to  nazwa lokalizacji pamięci.\n" +
                 "Każda zmienna musi mieć określony typ danych, np. int, albo String.\n" +
                 "Jeżeli deklarację zmiennej poprzedzimy słowem final, to oznacza niezmenność deklarowanego elementu …\n" +
                 "W klasie mogą się znajdować metody, konstruktory i pola\n" +
-                "Kinstrucktor są wywoływane przez operator new  i służą do tworzenia nowych obiektów.\n" +
+                "Kinstruktor są wywoływane przez operator new  i służą do tworzenia nowych obiektów.\n" +
                 "Jeśli w klasie zdefiniowano chociaż jeden konstrukor to kompilator nie wygeneruje dla nas konstruktora" +
                 " domyślnego.\n" +
                 "Zakładając, że istnieje klasa Car, to przy zapisie:\n" +
