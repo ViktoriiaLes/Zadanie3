@@ -8,14 +8,14 @@ public class Gapfill {
                 "Zmienna to  nazwa lokalizacji pamięci.\n" +
                 "Każda zmienna musi mieć określony typ danych, np. int, albo String.\n" +
                 "Jeżeli deklarację zmiennej poprzedzimy słowem final, to oznacza niezmenność deklarowanego elementu …\n" +
-                "W klasie mogą się znajdować …, … i …\n" +
+                "W klasie mogą się znajdować metody, konstruktory i pola\n" +
                 "Kinstrucktor są wywoływane przez operator new  i służą do tworzenia nowych obiektów.\n" +
                 "Jeśli w klasie zdefiniowano chociaż jeden konstrukor to kompilator nie wygeneruje dla nas konstruktora" +
                 " domyślnego.\n" +
                 "Zakładając, że istnieje klasa Car, to przy zapisie:\n" +
                 "Car car1 = new Car(„BMW”, „M5”, 2007, 2.6);  \n" +
                 "Car car2 = car1;\n" +
-                "car1 i car2 to dwie zmienne  wskazujące na ten sam obiekt" +
+                "car1 i car2 to dwie referencje  wskazujące na ten sam obiekt" +
                 "");
     }
 }
